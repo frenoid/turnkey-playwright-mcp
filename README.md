@@ -23,6 +23,7 @@ docker run -d \
   --env=PLAYWRIGHT_MCP_HOST=0.0.0.0 \
   --env=PLAYWRIGHT_MCP_OUTPUT_DIR=/output \
   frenoid/playwright-mcp:v1.58.2-noble-amd64-v1 --no-sandbox
+```
 
 Parameters
 1. --ipc=host: Required to prevent Chrome memory crashes.
